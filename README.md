@@ -6,9 +6,9 @@ based on univariate projections and the tensor-train (TT) format.
 For a three-dimensional geometry map $G$, the mass and
 stiffness operators are
 
-$$
+```math
 \mathbf{M}_{(\hat{\mathbf{i}},\hat{\mathbf{j}})} = \int_{\left[0,1 \right]^3} \hat{\beta}_{\hat{\mathbf{i}}} \left(  \hat{x}  \right)  \, \hat{\beta}_{\hat{\mathbf{j}}} \left(  \hat{x}  \right)  \, \omega  \left(  \hat{x}  \right)  \, \mathrm{d} \hat{x}, \qquad \mathbf{K}_{(\hat{\mathbf{i}},\hat{\mathbf{j}})} = \int_{\left[0,1 \right]^3}  \left(  Q  \left(  \hat{x}  \right)  \nabla \hat{\beta}_{\hat{\mathbf{i}}} \left(  \hat{x}  \right)  \right)  \cdot \nabla \hat{\beta}_{\hat{\mathbf{j}}} \left(  \hat{x}  \right)  \, \mathrm{d} \hat{x},
-$$
+```
 where $\omega \left( \hat{x} \right)  = \det \left( \nabla G \left( \hat{x} \right)  \right)$ and $Q \left( \hat{x} \right)  = \omega \left( \hat{x} \right)   \left( \nabla G \left( \hat{x} \right)  \right)^{-1}  \left( \nabla G \left( \hat{x} \right)  \right)^{-\top}$
 
 The geometry-dependent weight functions $\omega$ and $Q$ are the only obstacle to a tensor-product
