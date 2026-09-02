@@ -97,9 +97,14 @@ harness is Linux-only.
 If you use this code, please cite the accompanying paper.
 
 ```bibtex
-@article{RiemerStoll2026,
-  author  = {Riemer, Tom-Christian and Stoll, Martin},
-  title   = {Projection-based low-rank assembly in {IgA}},
+@misc{riemer2026projection,
+  title         = {Projection-based low-rank assembly in {IgA}},
+  author        = {Riemer, Tom-Christian and Stoll, Martin},
+  year          = {2026},
+  eprint        = {2609.01218},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.NA},
+  doi           = {10.48550/arXiv.2609.01218}
 }
 ```
 
